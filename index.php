@@ -26,9 +26,9 @@
                     <label class="lab">Contact <input type="contact" name="contact" required></label>
                     </div>
                     <div class="col-lg-12 col-md-12 col-sm-12 m-5 text-center">
-                    <label class="lab">Male <input class="form-check-input" type="radio" name="flexradiomale" value="" required>
+                    <label class="lab">Male <input class="form-check-input" type="radio" name="flexRadioDefault">
                     </label>
-                    <label class="lab">Female <input class="form-check-input" type="radio" name="flexradiofemale" value=""></label>
+                    <label class="lab">Female <input class="form-check-input" type="radio" name="flexRadioDefault">
                     </div>
                     <div class="col-lg-12 col-md-12 col-sm-12 m-5 text-center">
                     <label class="lab">City Name <input type="text" name="city_name" required></label>
