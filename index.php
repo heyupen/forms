@@ -23,6 +23,31 @@
                     <label class="lab lab1">Email <input type="text" name="email" required></label>
                     </div>
                     <div class="col-lg-12 col-md-12 col-sm-12 m-5 text-center">
+                    <label class="lab">Contact <input type="contact" name="contact" required></label>
+                    </div>
+                    <div class="col-lg-12 col-md-12 col-sm-12 m-5 text-center">
+                    <label class="lab">Male <input class="form-check-input" type="radio" name="flexradiomale" value="" required>
+                    </label>
+                    <label class="lab">Female <input class="form-check-input" type="radio" name="flexradiofemale" value=""></label>
+                    </div>
+                    <div class="col-lg-12 col-md-12 col-sm-12 m-5 text-center">
+                    <label class="lab">City Name <input type="text" name="city_name" required></label>
+                    </div>
+                    <div class="col-lg-12 col-md-12 col-sm-12 m-5 text-center">
+                    <label class="lab">State <!-- <input type="option" name="sate" required> -->
+                        <select>
+                            <option>Rjasthan</option>
+                            <option>Gujrat</option>
+                            <option>Maharasthra</option>
+                            <option>Aasam</option>
+                            <option>Bihar</option>
+                        </select>
+                    </label>
+                    </div>
+                    <div class="col-lg-12 col-md-12 col-sm-12 m-5 text-center">
+                    <label class="lab">Counrty <input type="text" name="country" required></label>
+                    </div>
+                    <div class="col-lg-12 col-md-12 col-sm-12 m-5 text-center">
                     <button class="btn" name="save">Save</button>
                     </div>
                 </form>

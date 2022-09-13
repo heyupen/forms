@@ -2,7 +2,8 @@
 
 input{
 
-	margin-left: 20px;
+	margin: 10px;
+	width: 255px;
 }
 
 .lab{
@@ -21,4 +22,14 @@ input{
 	background-color: #a5a4a4;
 	color: #000000;
 	border-color: black;
+}
+
+input[type="contact"] {
+    margin-right: -15px;
+}
+
+select {
+    /* margin-right: 50px; */
+    width: 237px;
+    margin-left: 50px;
 }
