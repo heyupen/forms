@@ -14,16 +14,16 @@
         <div class="row">
                 <form action="" method="post">
                     <div class="col-lg-12 col-md-12 col-sm-12 m-5 text-center">
-                    <label class="lab">First Name <input type="text" name="f_name" required></label>
+                    <label for="f_name" class="lab">First Name <input type="text" name="f_name" aria-describedby="name-format" required aria-required="true"></label>
                     </div>
                     <div class="col-lg-12 col-md-12 col-sm-12 m-5 text-center">
-                    <label class="lab">Last Name <input type="text" name="l_name" required></label>
+                    <label for="l_name" class="lab">Last Name <input type="text" name="l_name" aria-describedby="name-format" required aria-required="true"></label>
                     </div>
                     <div class="col-lg-12 col-md-12 col-sm-12 m-5 text-center">
-                    <label class="lab lab1">Email <input type="text" name="email" required></label>
+                    <label  for="email" class="lab lab1">Email <input type="email" name="email" aria-describedby="email-format" required aria-required="true"></label>
                     </div>
                     <div class="col-lg-12 col-md-12 col-sm-12 m-5 text-center">
-                    <label class="lab">Contact <input type="contact" name="contact" required></label>
+                    <label  for="phone" class="lab">Contact <input type="tel" pattern="[0-9]{10}" required></label>
                     </div>
                     <div class="col-lg-12 col-md-12 col-sm-12 m-5 text-center">
                     <label class="lab">Male <input class="form-check-input" type="radio" name="flexRadioDefault">
@@ -31,10 +31,10 @@
                     <label class="lab">Female <input class="form-check-input" type="radio" name="flexRadioDefault">
                     </div>
                     <div class="col-lg-12 col-md-12 col-sm-12 m-5 text-center">
-                    <label class="lab">City Name <input type="text" name="city_name" required></label>
+                    <label class="lab">City Name <input type="text" name="city_name" aria-describedby="name-format" required aria-required="true"></label>
                     </div>
                     <div class="col-lg-12 col-md-12 col-sm-12 m-5 text-center">
-                    <label class="lab">State <!-- <input type="option" name="sate" required> -->
+                    <label class="lab">State <!-- <input type="option" name="sate" required aria-required="true"> -->
                         <select>
                             <option>Rjasthan</option>
                             <option>Gujrat</option>
@@ -45,10 +45,10 @@
                     </label>
                     </div>
                     <div class="col-lg-12 col-md-12 col-sm-12 m-5 text-center">
-                    <label class="lab">Counrty <input type="text" name="country" required></label>
+                    <label class="lab">Counrty <input type="text" name="country" aria-describedby="name-format" required aria-required="true"></label>
                     </div>
                     <div class="col-lg-12 col-md-12 col-sm-12 m-5 text-center">
-                    <button class="btn" name="save">Save</button>
+                    <button class="btn" type="save" name="save">Save</button>
                     </div>
                 </form>
         </div>

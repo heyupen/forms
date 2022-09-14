@@ -33,3 +33,17 @@ select {
     width: 237px;
     margin-left: 50px;
 }
+
+
+
+/*input:valid,
+input:in-range {
+    background:greenyellow;
+    border-color:greenyellow;
+}
+
+input:invalid,
+input:out-of-range {
+    border-color:darkred;
+    background:red;
+}*/
