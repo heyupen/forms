@@ -22,7 +22,7 @@ input#email {
 }
 
 select {
-    margin-left: 10px;
+    margin-left: 44px;
 }
 
 .btn{
@@ -39,26 +39,10 @@ input[type="contact"] {
 
 select {
     /* margin-right: 50px; */
-    width: 250px;
+    width: 235px;
     /*margin-left: 53px;*/
 }
   
 label.gen {
     margin-right: 75px;
-}
-
-label.lab1 {
-    margin-left: 35px;
-}
-
-label.cont {
-    margin-left: 15px;
-}
-
-label.con {
-    margin-left: 15px;
-}
-
-label.sta {
-    margin-left: 35px;
-}
+}f
