@@ -10,31 +10,33 @@
 </head>
 <body>
     
-    <div class="container">
+    <div class="container card" style="width:35rem;">
+    <div class="card-body">
+    <h3 class="text-center">Customer Details</h3>
         <div class="row">
                 <form action="" method="post">
-                    <div class="col-lg-12 col-md-12 col-sm-12 m-5 text-center">
+                    <div class="col-lg-12 col-md-12 col-sm-12 m-5 text-start">
                     <label class="lab">First Name <input type="text" name="f_name" required></label>
                     </div>
-                    <div class="col-lg-12 col-md-12 col-sm-12 m-5 text-center">
+                    <div class="col-lg-12 col-md-12 col-sm-12 m-5 text-start">
                     <label class="lab">Last Name <input type="text" name="l_name" required></label>
                     </div>
-                    <div class="col-lg-12 col-md-12 col-sm-12 m-5 text-center">
-                    <label class="lab lab1">Email <input type="text" name="email" required></label>
+                    <div class="col-lg-12 col-md-12 col-sm-12 m-5 text-start">
+                    <label class="lab lab1">Email <input type="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" name="email" required></label>
                     </div>
-                    <div class="col-lg-12 col-md-12 col-sm-12 m-5 text-center">
-                    <label class="lab">Contact <input type="contact" name="contact" required></label>
+                    <div class="col-lg-12 col-md-12 col-sm-12 m-5 text-start">
+                    <label class="cont">Contact <input type="tel" pattern="[7-9]{1}[0-9]{9}" name="contact" required></label>
                     </div>
-                    <div class="col-lg-12 col-md-12 col-sm-12 m-5 text-center">
-                    <label class="lab">Male <input class="form-check-input" type="radio" name="flexRadioDefault">
-                    </label>
-                    <label class="lab">Female <input class="form-check-input" type="radio" name="flexRadioDefault">
+                    <div class="col-lg-12 col-md-12 col-sm-12 m-5 text-start">
+                   <label class="gen">Gender :</label>
+                    <label class="lab">Male <input class="form-check-input" type="radio" name="flexRadioDefault"></label>
+                    <label class="lab">Female <input class="form-check-input" type="radio" name="flexRadioDefault"></label>
                     </div>
-                    <div class="col-lg-12 col-md-12 col-sm-12 m-5 text-center">
+                    <div class="col-lg-12 col-md-12 col-sm-12 m-5 text-start">
                     <label class="lab">City Name <input type="text" name="city_name" required></label>
                     </div>
-                    <div class="col-lg-12 col-md-12 col-sm-12 m-5 text-center">
-                    <label class="lab">State <!-- <input type="option" name="sate" required> -->
+                    <div class="col-lg-12 col-md-12 col-sm-12 m-5 text-start">
+                    <label class="sta">State <!-- <input type="option" name="sate" required> -->
                         <select>
                             <option>Rjasthan</option>
                             <option>Gujrat</option>
@@ -44,13 +46,14 @@
                         </select>
                     </label>
                     </div>
-                    <div class="col-lg-12 col-md-12 col-sm-12 m-5 text-center">
-                    <label class="lab">Counrty <input type="text" name="country" required></label>
+                    <div class="col-lg-12 col-md-12 col-sm-12 m-5 text-start">
+                    <label class="con">Counrty <input type="text" name="country" required></label>
                     </div>
-                    <div class="col-lg-12 col-md-12 col-sm-12 m-5 text-center">
+                    <div class="col-lg-12 col-md-12 col-sm-12 m-5 text-start">
                     <button class="btn" name="save">Save</button>
                     </div>
                 </form>
+            </div>
         </div>
     </div>
 
