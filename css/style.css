@@ -45,4 +45,10 @@ select {
   
 label.gen {
     margin-right: 75px;
-}f
+}
+
+
+.msg1, .msg2, .msg3, .msg4{
+
+	font-weight: 700!important;
+}
